@@ -1,0 +1,144 @@
+.bg-dark {
+    background-color: #007398!important;
+    margin-bottom: 0 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(239, 210, 182);
+    text-transform: uppercase;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #6495ED;
+    border-color: #6495ED;
+}
+.navimg{
+    width: 35%;
+
+}
+
+.navtext {
+    color: white;
+    display: none;
+}
+
+p {
+    text-align: justify;
+    font-size: 12px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+img {
+    width: 55%;
+}
+
+.leftside {
+    margin-bottom: 25px;
+    font-size: 12px;
+}
+
+.footer {
+    background-color: #434242;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.footertext {
+    text-align: center;
+    color: white;
+}
+
+.footerline {
+    background-color: white;
+    width: 90px;
+}
+
+.table {
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    p {
+        font-size: 15px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    .table {
+        font-size: 14px;
+    }
+    .leftside {
+        font-size: 14px;
+    }
+    .navtext {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .navtext {
+        display: block;
+        position: absolute;
+        margin-left: 164px;
+        margin-top: 15px;
+    }
+}
+
+.journal_img{
+    width: 30%;
+    margin-bottom: 23px;
+    box-shadow: 0 0 10px 0 rgba(50,50,50,.5);
+}
+.nav-link{
+    color: #fff;
+}
+
+.form-control{
+    background-color: transparent;
+    border: 1px solid #cf9214;  
+    margin-right: 5px;
+}
+
+@media (min-width: 992px) {
+    .form-control{
+            padding-right: 162px;
+    }
+}
+
+.form-control:focus{
+    border-color:#feb908;  box-shadow: none; -webkit-box-shadow: none;
+    background-color: transparent;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #e1a764;
+    border: 1px solid rgba(0,0,0,.125);
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+.list-group-item-action:hover {
+    background-color:  #6495ED;
+    color: white;
+}
+
+.searchform{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.list-group-item-action{
+    background-color: #1E90FF;
+    margin: 0.2cm;
+    color: white;
+}

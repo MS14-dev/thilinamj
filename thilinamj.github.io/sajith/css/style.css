@@ -1,11 +1,12 @@
 .bg-dark {
-    background-color: #007398!important;
+    background-color: white!important;
     margin-bottom: 0 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(239, 210, 182);
     text-transform: uppercase;
+    
 }
 
 .list-group-item.active {
@@ -141,4 +142,7 @@ img {
     background-color: #1E90FF;
     margin: 0.2cm;
     color: white;
+}
+.navbar{
+border-bottom:  2px solid rgba(0, 0, 0, 0.836);
 }
